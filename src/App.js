@@ -15,7 +15,7 @@ function App() {
 
     setInterval(() => {
       detect(net);
-    }, 100);
+    }, 690);
   };
 
   const detect = async (net) => {
@@ -69,8 +69,8 @@ function App() {
             right: 0,
             textAlign: "center",
             zindex: 9,
-            width: 640,
-            height: 480,
+            width: "60vw",
+            height: "auto",
           }}
         />
 
@@ -84,8 +84,8 @@ function App() {
             right: 0,
             textAlign: "center",
             zindex: 9,
-            width: 640,
-            height: 480,
+            width: "60vw",
+            height: "auto",
           }}
         />
       </header>
